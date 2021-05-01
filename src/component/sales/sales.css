@@ -1,0 +1,59 @@
+.salesHeadDiv{
+    display: flex;
+    justify-content: space-around;
+    align-items: baseline;
+    margin-bottom: 30px;
+}
+.salesHeadSecondDiv{
+    display: flex;
+    align-items: baseline;
+}
+.salesHeadSecondDiv i{
+    font-size: 32px;
+    margin-right: 10px;
+}
+.salesHeadDiv h2{
+    font-size: 32px;
+}
+.salesButton{
+    margin: 0;
+    padding: 7px 20px;
+    font-size: 14px;
+    font-weight: 500;
+    color: #f9f9f9;
+    background-color: #080708;
+    border-radius: 5px;
+}
+.salesButton:hover{
+    background-color: #072AC8;
+}
+.sales-table{
+    width: 80%;
+    margin: 0 auto;
+    border: 1px solid #080708;
+}
+
+.sales-table th{
+    font-size: 16px;
+    padding: 15px;
+    border: 1px solid #080708;
+}
+
+
+.sales-table td{
+    font-size: 16px;
+    border: 1px solid #080708;
+    text-align: center;
+    padding: 10px;
+
+}
+.deleteIcon{
+    font-size: 22px;
+    color: rgb(119, 8, 8);
+    cursor: pointer;
+}
+.editIcon{
+    font-size: 22px;
+    color: #119DA4;
+    cursor:pointer;
+}

@@ -1,0 +1,32 @@
+.salesOrderDiv{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.salesOrder-form{
+    background-color: #FCCFE9;
+    padding: 20px;
+}
+.salesOrder-label{
+    display: block;
+    margin-top: 10px;
+    margin-bottom: -20px;
+    font-size: 16px;
+}
+.salesOrderInput{
+    width: 300px;
+    padding: 5px;
+}
+.salesOrder-submitButton{
+    padding: 7px 20px;
+    color: #C20A75;
+    border-radius: 20px;
+    width: 120px;
+    cursor: pointer;
+    outline: none;
+}
+.salesOrder-submitButton:hover{
+    background-color: #C20A75;
+    color: #f9f9f9;
+}

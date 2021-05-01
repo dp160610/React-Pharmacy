@@ -1,0 +1,62 @@
+.teamsHeadDiv{
+    display: flex;
+    justify-content: space-around;
+    align-items: baseline;
+    margin-bottom: 30px;
+}
+.teamsHeadSecondDiv{
+    display: flex;
+    align-items: baseline;
+}
+.teamsHeadSecondDiv i{
+    font-size: 32px;
+    margin-right: 10px;
+}
+.teamsHeadDiv h2{
+    font-size: 32px;
+}
+.teamsButton{
+    margin: 0;
+    padding: 7px 20px;
+    font-size: 14px;
+    font-weight: 500;
+    color: #f9f9f9;
+    background-color: #080708;
+    border-radius: 5px;
+}
+.teamsButton:hover{
+    background-color: #072AC8;
+}
+.teams-table{
+    width: 80%;
+    margin: 0 auto;
+    border: 1px solid #080708;
+}
+
+.teams-table th{
+    font-size: 16px;
+    padding: 15px;
+    border: 1px solid #080708;
+}
+
+
+.teams-table td{
+    font-size: 16px;
+    border: 1px solid #080708;
+    text-align: center;
+    padding: 10px;
+
+}
+.deleteIcon{
+    font-size: 22px;
+    color: rgb(119, 8, 8);
+    cursor: pointer;
+}
+.editIcon{
+    font-size: 22px;
+    color: #119DA4;
+    cursor:pointer;
+}
+.lastH3{
+    text-align: center;
+}

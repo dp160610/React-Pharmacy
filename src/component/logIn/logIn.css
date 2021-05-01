@@ -1,0 +1,45 @@
+.loginFormDiv{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+.loginFormInnerDiv{
+	display: flex;
+	width: 50%;
+
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	text-align: left;
+	background-color: rgb(231, 197, 197);
+	padding: 10px;
+}
+
+.userIcon-LoginForm{
+	font-size: 50px;
+}
+.login-label{
+	margin-top: 10px;
+	position: relative;
+	left: 0;
+	font-size: 16px;
+
+}
+.inputLogInForm{
+	padding: 5px;
+	min-width: 300px;
+	font-size: 16px;
+	border-radius: 5px;
+
+}
+
+.buttonLoginForm{
+	padding:5px 10px;
+	border-radius: 20px;
+	margin-bottom: 20px;
+	width: 100px;
+	font-size: 16px;
+	outline: none;
+}

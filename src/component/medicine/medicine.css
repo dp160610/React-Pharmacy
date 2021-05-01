@@ -1,0 +1,32 @@
+.medicineDiv{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.medicine-form{
+    background-color: #FCCFE9;
+    padding: 20px;
+}
+.medicine-label{
+    display: block;
+    margin-top: 10px;
+    margin-bottom: -20px;
+    font-size: 16px;
+}
+.medicineInput{
+    width: 300px;
+    padding: 5px;
+}
+.medicine-submitButton{
+    padding: 7px 20px;
+    color: #C20A75;
+    border-radius: 20px;
+    width: 120px;
+    cursor: pointer;
+    outline: none;
+}
+.medicine-submitButton:hover{
+    background-color: #C20A75;
+    color: #f9f9f9;
+}
